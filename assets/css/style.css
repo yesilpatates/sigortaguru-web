@@ -5,3 +5,10 @@
 @media(max-width:600px){.container{width:min(100% - 26.6px,1102px)}.header-inner{height:68.4px}.brand img{width:180.5px}.hero,.section,.page-hero{padding:60.8px 0}.hero-actions{align-items:flex-start;flex-direction:column}.hero-visual{min-height:332.5px}.hero-visual:before{inset:52.25px 23.75px}.main-card{width:209px}.orbit-card{padding:11.4px;font-size:0.798rem}.card-a{left:0;top:17.1px}.card-b{right:0;top:42.75px}.card-c{left:0;bottom:14.25px}.card-d{right:0;bottom:33.25px}.card-grid.products,.card-grid.three,.contact-grid,.field-row{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:7.6px}.form-card,.contact-panel{padding:22.8px}.wa-fab{right:13.3px;bottom:13.3px}.article-page{padding:57px 0}}
 
 .support-fab{position:fixed;right:22.8px;bottom:87.4px;z-index:49;display:flex;align-items:center;gap:8.55px;padding:11.4px 17.1px;background:var(--dark);color:#fff;border-radius:949.05px;box-shadow:var(--shadow);font-family:Outfit,sans-serif;font-weight:600;min-height:45.6px}.support-fab img{width:26.6px;height:24.7px;object-fit:contain}.support-fab:hover{background:var(--teal)}.support-fab:focus-visible{outline:2.85px solid var(--teal);outline-offset:3.8px}.support-open .support-fab,.support-open .wa-fab{visibility:hidden}@media(max-width:600px){.support-fab{right:13.3px;bottom:79.8px;padding:9.5px 15.2px}}
+
+/* Compact page introduction areas without changing heading sizes. */
+.hero{padding-top:78.66px;padding-bottom:70.11px}
+.hero-visual{min-height:410.4px}
+.page-hero{padding-top:76.95px;padding-bottom:59.85px}
+@media(max-width:900px){.hero-visual{min-height:342px}}
+@media(max-width:600px){.hero,.page-hero{padding-top:54.72px;padding-bottom:54.72px}.hero-visual{min-height:299.25px}}
