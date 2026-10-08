@@ -89,3 +89,6 @@
 /* Consistent icon boxes preserve each supplied illustration’s proportions. */
 .value-icon{width:64px;height:64px;object-fit:contain;object-position:left center;margin-bottom:18px}
 @media(max-width:900px){.value-icon{width:56px;height:56px;margin-bottom:14px}}
+
+.article-cover{width:100%;height:auto;object-fit:contain;border-radius:20px;margin:0 0 28px}
+@media(max-width:600px){.article-cover{border-radius:14px;margin-bottom:22px}}
