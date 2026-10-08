@@ -73,3 +73,8 @@
 .download-fab:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
 .support-open .download-fab{visibility:hidden}
 @media(max-width:600px){.download-fab{right:12px;bottom:calc(70px + env(safe-area-inset-bottom,0px));max-width:calc(100% - 24px);font-size:.85rem;padding:10px 14px}.site-footer{padding-bottom:calc(158px + env(safe-area-inset-bottom,0px))}}
+
+.steps>div{align-items:center}
+.steps .step-icon{width:56px;height:56px;flex:0 0 56px;object-fit:contain}
+.steps span{min-width:0}
+@media(max-width:600px){.steps .step-icon{width:48px;height:48px;flex-basis:48px}.steps>div{gap:14px}}
