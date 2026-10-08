@@ -85,3 +85,7 @@
 .hero-illustration img{width:100%;height:auto;object-fit:contain}
 @media(min-width:901px){.hero-grid{grid-template-columns:1fr 1.08fr;gap:36px}.hero-illustration img{width:110%;max-width:110%;flex-shrink:0}}
 @media(max-width:900px){.hero-illustration{width:min(100%,620px);margin:0 auto}}
+
+/* Consistent icon boxes preserve each supplied illustration’s proportions. */
+.value-icon{width:64px;height:64px;object-fit:contain;object-position:left center;margin-bottom:18px}
+@media(max-width:900px){.value-icon{width:56px;height:56px;margin-bottom:14px}}
