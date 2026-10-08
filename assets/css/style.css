@@ -98,4 +98,4 @@
 .article-heading .article-cover{width:100%;margin:0 auto}
 @media(max-width:600px){.article-heading{grid-template-columns:1fr;gap:20px;margin-bottom:24px}.article-heading h1{font-size:1.8rem}.article-heading .article-cover{width:100%}}
 
-.article-heading .article-cover-health{aspect-ratio:auto}
+.article-heading .article-cover-health{width:95%;aspect-ratio:auto}
